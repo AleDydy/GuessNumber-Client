@@ -18,7 +18,7 @@ public class App {
             BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
             DataOutputStream out = new DataOutputStream(s.getOutputStream());
 
-            System.out.println("WELCOME TO THE GUESS THE NUMBER GAME. IN THIS GAME, YOU HAVE TO GUESS THE NUMBER THAT I THUOUGHT, GOOD LUCK!");
+            System.out.println("WELCOME TO THE GUESS THE NUMBER GAME. IN THIS GAME, YOU HAVE TO GUESS THE NUMBER THAT I THOUGHT, GOOD LUCK!");
 
             Scanner input = new Scanner(System.in); // Create a Scanner object
             System.out.println("Enter a number from 1 to 100");
